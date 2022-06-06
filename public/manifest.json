@@ -1,0 +1,160 @@
+{
+  "short_name": "Ian Test",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "cart.png",
+      "sizes": "47x37",
+      "type": "image/png"
+    },
+    {
+      "src": "certified.png",
+      "type": "image/png",
+      "sizes": "316.375x80 tbd"
+    },
+    {
+      "src": "customerService.png",
+      "type": "image/png",
+      "sizes": "56x56"
+    },
+    {
+      "src": "higestQuality.png",
+      "type": "image/png",
+      "sizes": "56x56"
+    },
+    {
+      "src": "location.png",
+      "type": "image/png",
+      "sizes": "56x56"
+    },
+    {
+      "src": "EM1010.png",
+      "type": "image/png",
+      "sizes": "168x182"
+    },
+    {
+      "src": "TC1501.png",
+      "type": "image/png",
+      "sizes": "168x182"
+    },
+    {
+      "src": "MT1501.png",
+      "type": "image/png",
+      "sizes": "168x182"
+    },
+    {
+      "src": "TT1080.png",
+      "type": "image/png",
+      "sizes": "168x182"
+    },
+    {
+      "src": "Facebook White Icon.png",
+      "type": "image/png",
+      "sizes": "12x25"
+    },
+    {
+      "src": "Instagram White Icon.png",
+      "type": "image/png",
+      "sizes": "22x22"
+    },
+    {
+      "src": "Pintrest White Icon.png",
+      "type": "image/png",
+      "sizes": "20x25"
+    },
+    {
+      "src": "Twitter White Icon.png",
+      "type": "image/png",
+      "sizes": "23x20"
+    },
+    {
+      "src": "Pintrest White Icon.png",
+      "type": "image/png",
+      "sizes": "20x25"
+    },
+    {
+      "src": "Youtube White Icon.png",
+      "type": "image/png",
+      "sizes": "21x16"
+    },
+    {
+      "src": "fbLogo.png",
+      "type": "image/png",
+      "sizes": "21x21"
+    },
+    {
+      "src": "headerBg.png",
+      "type": "image/png",
+      "sizes": "1503x1326"
+    },
+    {
+      "src": "leftBtn.png",
+      "type": "image/png",
+      "sizes": "131x131"
+    },
+    {
+      "src": "rightBtn.png",
+      "type": "image/png",
+      "sizes": "131x131"
+    },
+    {
+      "src": "quoteImg.png",
+      "type": "image/png",
+      "sizes": "51x52"
+    },
+    {
+      "src": "review1.png",
+      "type": "image/png",
+      "sizes": "91x91"
+    },
+    {
+      "src": "review2.png",
+      "type": "image/png",
+      "sizes": "91x91"
+    },
+    {
+      "src": "review3.png",
+      "type": "image/png",
+      "sizes": "91x91"
+    },
+    {
+      "src": "review4.png",
+      "type": "image/png",
+      "sizes": "91x91"
+    },
+    {
+      "src": "RicomaLogoGrey.png",
+      "type": "image/png",
+      "sizes": "249x65"
+    },
+    {
+      "src": "RicomaLogo.png",
+      "type": "image/png",
+      "sizes": "249x65"
+    },
+    {
+      "src": "square_bg.png",
+      "type": "image/png",
+      "sizes": "322x332"
+    },
+    {
+      "src": "square_fg.png",
+      "type": "image/png",
+      "sizes": "322x332"
+    },
+    {
+      "src": "square_mg.png",
+      "type": "image/png",
+      "sizes": "437x350"
+    },
+    {
+      "src": "Star.png",
+      "type": "image/png",
+      "sizes": "22x20"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
