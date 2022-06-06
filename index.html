@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open Sans|Poppins|Rubik|Source Sans Pro|Montserrat">
+	<link rel="stylesheet" href="../src/index.css">
+	<script src=src/index.js></script>
+</head>
+<body>
+	<div id="page">
+		<div id="menuBar">
+			<img src="RicomaLogo.png" alt="" id="logoMenu">
+			<div id="menuButtonsHolder">
+				<a href="" id="home"><h3 class="menuItems">HOME</h3></a>
+				<a id="Products"><h3 class="menuItems">PRODUCTS</h3></a>
+				<a id="About"><h3 class="menuItems">ABOUT</h3></a>
+			</div>
+			<div id="cartHolder">
+				<img id="cart" alt="" src="cart.png">
+			</div>
+		</div>
+
+		<div id="mainCanvas">
+			<div id="upper">
+				<div id="welcome">
+					<h1 id="welcomeTxt">Dui augue lectus in ut at lorem</h1>
+					<p id="greeting">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem nec aenean leo pulvinar morbi pulvinar sagittis, hac massa. Vulputate bibendum et in mattis nec duis nec, magna. Nunc, mattis purus dolorrisus commodo. Tempus molestie morbi ultrices nunc. 
+						<span class="highlight">
+							Semper nam ridiculus duis bibendum risus, arcu arcu.
+						</span><br><br>
+						Nulla ut elementum, nibh viverra pharetra eu. Aliquet sem condimentum posuere cursus quis risus. Mauris, auctor ridiculus blandit lacus.
+						<span class="highlight">
+							Porttitor diam a amet pharetra tellus, senectus augue. Id sed a quis morbi ac odio cursus metus sit. Sapien ut non eu non egestas non mauris. 
+						</span>
+						 Elit, scelerisque mauris aenean justo. 
+					</p>
+					<iframe class="welcomeVideoHolder" src="https://www.youtube.com/watch?v=SQLvqBFKehA"></iframe>
+				</div>
+				<div id="signUp">
+					<div id="topper">
+						<img src="square_bg.png" alt="" id="squareBg">
+						<img src="square_mg.png" alt="" id="squareMg">
+						<img src="square_fg.png" alt="" id="squareFg">
+					</div>
+					<div id="entryForm">
+						<h2 class="signUpSub">Dictumst dui egestas.</h2>
+						<div class="signUpBoxes">
+							<form action="/signUp.php">
+								<div id="signUpLeft">
+									<label class="signUpLbls" for="fname"><h3>First Name</h3></label>
+									<input type="text" id="fname" name="fname" placeholder="Enter your first name">
+									<label class="signUpLbls" for="emailA"><h3>Email Address</h3></label>
+									<input type="email" id="emailA" name="emailA" placeholder="Enter your last name">
+								</div>
+								<div id="signUpRight">
+									<label class="signUpLbls" for="lname"><h3>Last Name</h3></label>
+									<input type="text" id="lname" name="lname" placeholder="Enter your email addres">
+									<label class="signUpLbls" for="phoneNo"><h3>Phone Number</h3></label>
+									<input type="tel" id="phoneNo" name="phoneNo" placeholder="Enter your phone number">
+								</div>
+								<label class="signUpLbls" for="country" style="position: relative; left: 5%;"><h3>Country</h3></label>
+								<input type="text" id="country" name="country">
+								<input class="btnText" id="submitBtn" type="submit" value="Submit">
+							</form>
+						</div>
+						<div id="certified">
+							<img src="certified.png" alt="" id="certIcons">
+						</div>
+						<div id="signUpReview">
+							<img class="quote" src="quoteImg.png">
+							<h3 class="name">Sit eu.</h3>
+							<p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porta venenatis, lobortis proin justo, in vel elementum. Convallis.</p>
+							<div class="stars">
+								<img class="fullStar" src="Star.png">
+							</div>
+							<div class="stars">
+								<img class="fullStar" src="Star.png">
+							</div>
+							<div class="stars">
+								<img class="fullStar" src="Star.png">
+							</div>
+							<div class="stars">
+								<img class="fullStar" src="Star.png">
+							</div>
+							<div class="stars">
+								<img class="fullStar" src="Star.png">
+							</div>
+						</div>
+						<div id="signUpLegal">
+							<p id="legalese">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer risus, faucibus sit viverra cras aliquam parturient. Interdum amet imperdiet sit feugiat donec. Proin.</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+			
+			<div id="buttonDivider">
+				<div id="support">
+					<img src="customerService.png" alt="" id="phone">
+					<h2 class="dividerSub">24/7</h2>
+					<h3 class="dividerText">LOREM IPSUM</h3>
+				</div>
+				<div class="vertStroke"></div>
+				<div id="factories">
+					<img src="location.png" alt="" id="factory">
+					<h2 class="dividerSub">30+</h2>
+					<h3 class="dividerText">LOREM IPSUM</h3>
+				</div>
+				<div class="vertStroke"></div>
+				<div id="awards">
+					<img src="highestQuality.png" alt="" id="awardIcon">
+					<h2 class="dividerSub">50+</h2>
+					<h3 class="dividerText">LOREM IPSUM</h3>
+				</div>
+			</div>
+
+			<div id="lower">
+				<h1 id="productTitle">Pellentesque tortor aliquet arcu nunc.</h1>
+
+				<div id="productRotator">
+					<div class="product">
+						<div class="rotatorSubHead">
+							<h2 style="width: 70%; margin: 5% 14%;" class="productTitle">Lorem ipsum dolor sit amet, consectetur</h2>
+						</div>
+						<div class="rotatorImg">
+							<img id="EM1010" src="EM1010.png">
+							<h2 class="productName">EM-1010</h2>
+							<h3 class="needleNum">10 NEEDLES</h3>
+						</div>
+						<div class="rotatorReviewHolder">
+							<div class="rotatorReview">
+								<img class="quote" src="quoteImg.png">
+								<img class="rotatorFb" src="fbLogo.png">
+								<img class="reviewer" src="review1.png">
+								<div class="reviewBlock">
+									<h3 class="name">Viverra.</h3>
+									<p class="review">Sem scelerisque sit viverra.</p>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+								</div>
+							</div>
+							<div class="rotatorReview">
+								<img class="quote" src="quoteImg.png">
+								<img class="rotatorFb" src="fbLogo.png">
+								<img class="reviewer" src="review2.png">
+								<div class="reviewBlock">
+									<h3 class="name">Sed foucibus.</h3>
+									<p class="review">Justo fames orci enim ornare quis lectus odio.</p>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+								</div>	
+							</div>
+							<p class="rotatorBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur auctor malesuada hendrerit nec, porttitor nunc tristique. Egestas eget fermentum at eget nunc et nisi eu lorem.</p>
+							<button id="em1010Btn"><h3 class="btnText">DOLOR.</h3></button>
+						</div>
+					</div>
+					<div class="product">
+						<div class="rotatorSubHead">
+							<h2 class="productTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+						</div>
+						<div class="rotatorImg">
+							<div id="slider">
+								<div class="productHolder">
+									<img id="TC1501" src="TC1501.png">
+									<h2 class="productName">TC-1501</h2>
+									<h3 class="needleNum">15 NEEDLES</h3>
+								</div>
+								<div class="productHolder">
+									<img id="MT1501" src="MT1501.png">
+									<h2 class="productName">MT-1501</h2>
+									<h3 class="needleNum">15 NEEDLES</h3>
+								</div>
+								<div class="productHolder">
+									<img id="TT1080" src="NP6492.png">
+									<h2 class="productName">DK-1501</h2>
+									<h3 class="needleNum">15 NEEDLES</h3>
+								</div>
+							</div>
+						</div>
+						<div id="fade"></div>
+						<img src="leftBtn.png" alt="" id="leftBtn">
+						<img src="rightBtn.png" alt="" id="rightBtn">
+						<div class="rotatorReviewHolder">
+							<div class="rotatorReview">
+								<img class="quote" src="quoteImg.png">
+								<img class="rotatorFb" src="fbLogo.png">
+								<img class="reviewer" src="review3.png">
+								<div class="reviewBlock">
+									<h3 class="name">Ac potenti.</h3>
+									<p class="review">Consectetur porttitor nunc id nunc quis.</p>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+								</div>
+							</div>
+							<div class="rotatorReview">
+								<img class="quote" src="quoteImg.png">
+								<img class="rotatorFb" src="fbLogo.png">
+								<img class="reviewer" src="review4.png">
+								<div class="reviewBlock">
+									<h3 class="name">Vitae tortor.</h3>
+									<p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus eget morbi sit amet.</p>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+									<div class="stars">
+										<img class="fullStar" src="Star.png">
+									</div>
+								</div>
+							</div>
+							<p class="rotatorBlurb">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim, ornare nulla sapien urna, mi quam tristique sapien. Eget condimentum enim aenean viverra lacus, gravida facilisis. Arcu.</p>
+							<button id="TC1501Btn"><h3 class="btnText">CURSUS.</h3></button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="footer">
+				<div id="footerLeft">
+					<img id="logoFooter" src="RicomaLogo.png">
+					<div id="socialHolder">
+						<img id="fb" src="Facebook White Icon.png">
+						<img id="twit" src="Twitter White Icon.png">
+						<img id="insta" src="Instagram White Icon.png">
+						<img id="youtube" src="Youtube White Icon.png">
+						<img id="pin" src="Pinterest White Icon.png">
+					</div>
+					<div id="legal">
+						<a id="legal1">Lorem</a>
+						<a id="legal2">Ipsum</a>
+					</div>
+				</div>
+
+				<div id="footerMid">
+					<div id="leftCol">
+						<h3 class="subHead">Massa.</h3>
+						<a class="footLink">Alquet et.</a>
+						<a class="footLink">Doner.</a>
+						<a class="footLink">Neque nec feugian.</a>
+					</div>
+					<div id="midCol">
+						<h3 class="subHead">Enim.</h3>
+						<a class="footLink">Lorem</a>
+						<a class="footLink">Ipsum</a>
+						<a class="footLink">Donec.</a>
+					</div>
+					<div id="rightCol">
+						<h3 class="subHead">Fusce.</h3>
+						<a class="footLink">Amet.</a>
+						<a class="footLink">Tarcduent.</a>
+						<a class="footLink">Fells nec ingue.</a>
+					</div>
+				</div>
+
+				<div id="footerRight">
+					<iframe class="footerVideoHolder" src="https://www.youtube.com/watch?v=SQLvqBFKehA"></iframe>
+
+					<p class="legal">Lorem ipsum dolor sit amet</p>
+				</div>
+
+				<div id="saleTimer">
+					<h3 id="saleTitle">NIBH TINCIDUNT.</h3>
+					<h2 id="timer"></h2>
+					<script type="text/javascript">
+
+						var countDownDate = new Date("June 8, 2022 15:37:25").getTime();
+
+						var x = setInterval(function() {
+
+						  var now = new Date().getTime();
+
+						  var distance = countDownDate - now;
+
+						  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+						  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+						  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+						  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+						  document.getElementById("timer").innerHTML = days + " DAYS :" + hours + " HOURS :"
+						  + minutes + " MIN :" + seconds + " SEC";
+
+						  if (distance < 0) {
+						    clearInterval(x);
+						    document.getElementById("timer").innerHTML = "EXPIRED";
+						  }
+						}, 1000);
+					</script>
+					<button id="sale"><h2 style="line-height: 11%;" class="btnText">Lorem Ipsum</h2></button>
+
+				</div>
+			</div>
+		</div>
+		<div id="menuBar">
+			<img src="RicomaLogo.png" alt="" id="logoMenu">
+			<div id="menuButtonsHolder">
+				<a href="" id="home"><h3 class="menuItems">HOME</h3></a>
+				<a id="Products"><h3 class="menuItems">PRODUCTS</h3></a>
+				<a id="About"><h3 class="menuItems">ABOUT</h3></a>
+			</div>
+			<div id="cartHolder">
+				<img id="cart" alt="" src="cart.png">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
